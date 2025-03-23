@@ -75,7 +75,7 @@ async def on_ready():
 
     # ✅ Cache the channel after the bot is fully ready
     channel_cache = bot.get_channel(CHANNEL_ID)
-    
+
     if channel_cache:
         logging.info(f"✅ Channel {CHANNEL_ID} cached successfully.")
     else:
